@@ -1,6 +1,6 @@
 {
   "name": "backup-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "When the content corresponding to a certain url changes, back it up.",
   "main": "index.js",
   "env": {

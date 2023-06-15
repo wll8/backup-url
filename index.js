@@ -67,17 +67,6 @@ class BackupUrl {
   }
 }
 
-new BackupUrl({
-  // dir: `./backup`,
-  interval: 5 * 1000,
-  url: [
-    `http://127.0.0.1:8999/doc/openApi.json`,
-    `http://127.0.0.1:8999/doc/openApi.json?a=1&b=2`,
-  ],
-  format: `json`,
-})
-
-
 module.exports = {
   BackupUrl,
 }
